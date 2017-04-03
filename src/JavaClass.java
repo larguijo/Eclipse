@@ -5,9 +5,10 @@ import java.util.ArrayList;
 public class JavaClass {
 
 	public static void main(String[] args) {
-		System.out.println("hola bb");
+		System.out.println("hola Victoria, como estas.");
+		System.out.println("Firma: Luis");
 
-		int[] numeris = { 1, 2, 3, 4, 5, 6, 9, 10 };
+		int[] numeris = { 1, 2, 3, 4, 5, 6, 7, 9, 10 };
 		int sumador = 0;
 		for (int number : numeris) {
 			sumador += number;
