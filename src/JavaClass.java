@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class JavaClass {
 
 	public static void main(String[] args) {
-		System.out.print("hola bb");
+		System.out.println("hola bb");
 
-		int[] numbers = { 1, 2, 3, 4, 6, 9,10 };
+		int[] numeris = { 1, 2, 3, 4, 5, 6, 9, 10 };
 		int sumador = 0;
-		for (int number : numbers) {
+		for (int number : numeris) {
 			sumador += number;
 		}
 
